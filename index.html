@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Speech Recognition to your Site!</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div class="section no-pad-bot">
+    <h1 class="center-align">JavaScript Speech Recognition</h1>
+    <h4 class="center-align">With Text-To-Speech</h4>
+    <br><br>
+  </div>
+  <div class="section no-pad-bot teal white-text">
+    <div class="container">
+      <p class="flow-text">Go ahead and try it...</p>
+      <span class="flow-text"><i class="material-icons">comment</i> Say "Hello!"</span>
+    </div>
+    <br><br>
+  </div>
+  <div class="section no-pad-bot blue darken-3 white-text">
+    <div class="container">
+      <p class="flow-text">Let's try something more interesting…</p>
+      <span class="flow-text"><i class="material-icons">comment</i> Say "Show me cute person"</span>
+    </div>
+    <br><br>
+  </div>
+  <div class="section no-pad-bot blue-grey darken-3 white-text">
+    <div class="container">
+      <p class="flow-text">How about in the real world?</p>
+      <span class="flow-text"><i class="material-icons">comment</i> Say "Hi"</span> <br> <br>
+      <span class="flow-text"><i class="material-icons">comment</i> Say "I am (your name)."</span>
+    </div>
+    <br><br>
+  </div>
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Annyang</h5>
+            <p class="light">annyang is a tiny javascript library that lets your visitors control your site with voice commands. annyang supports
+              multiple languages, has no dependencies, weighs just 2kb and is free to use.</p>
+            <center><a href="https://www.talater.com/annyang/" class="btn">Link</a></center>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">meSpeak.js</h5>
+            <p class="light">meSpeak.js (modulary enhanced speak.js) is a 100% client-side JavaScript text-to-speech library based on the
+              speak.js project.</p>
+              <center><a href="http://www.masswerk.at/mespeak" class="btn">Link</a></center>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </div>
+
+  <!-- speakjs requirement -->
+  <div id="audio"></div>
+
+  <!-- Modal Structure -->
+  <div id="showCena" class="modal">
+    <div class="modal-content">
+      <h4>Say "Close" to close</h4>
+      <img src="materialize/img/john-cena.jpg" class="responsive-img" alt="">
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <!-- Annyang -->
+  <script src="annyang/annyang.min.js"></script>
+  <!-- SpeakJS -->
+  <script src="mespeak/mespeak.js"></script>
+  <!-- App codes -->
+  <script src="app.js"></script>
+</body>
+
+</html>
